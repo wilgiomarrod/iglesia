@@ -1,0 +1,601 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: Maven Pro;
+    src: url(../assets/font/MavenPro-VariableFont_wght.ttf);
+}
+.followUsW{
+    width:auto;
+    padding-right: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.followUsW h3{
+    display: inline;
+}
+.mobile{
+    display: none;
+}
+.navebar{
+
+    background-color: rgb(255, 255, 255);
+    font-display: bold;
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+}
+/*Inicio Estilos main*/
+
+a:link{
+    color: black;
+    font-display: bold;
+    text-decoration:none;
+
+}
+
+a:visited{
+    color:black;
+    text-decoration:none;
+    font-display: bold;
+
+}
+a:hover{
+
+    font-display: bold;
+    text-decoration: underline;
+    font-size:30px;
+    color: rgb(145, 19, 19)
+}
+.sectionPrincipal{
+
+    display: flex;
+    gap: 2px;
+}
+.sectionPrincipal .carousell img{
+
+    width: 100%;
+    height: auto;
+
+}
+.sectionPrincipalAux h1{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+
+.sectionPrincipalAux h2{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.sectionPrincipalAux p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight:2;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+}
+.contenidoPrincipal{
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    height: 550px;
+    align-items: center;
+    justify-content:center;
+}
+.contenidoPrincipal h1{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.contenidoPrincipal h2{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.contenidoPrincipal p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight:2;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+}
+.contenidoPrincipal div p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight:2;
+    
+}
+
+.contenidoPrincipalAux h2{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.contenidoPrincipalAux h3{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.contenidoPrincipalAux p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight:2;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+}
+.cardImagen{
+    display: flex;
+    height: 350px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 30px;
+}
+.cardImagen img{
+    width: 630px;
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.novedad{
+
+    display: flex;
+    height: Auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid yellow;
+    border-radius: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 26px;
+
+}
+.novedaditem{
+
+    border: solid lightslategray;
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.novedad .novedaditem img{
+    width: 310px;
+    height: 290px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.novedaditem img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.novedaditem p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.novedaditem h4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sectionSecundaria{
+    display: flex;
+    width: 100%;
+    height: 330px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap:60px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectionSecundariaAux h2{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.sectionSecundariaAux h3{
+    font-family: "Maven Pro", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px black;
+}
+.sectionSecundariaAux p{
+    font-family: "Maven Pro", sans-serif;
+    font-weight:2;
+    font-style: normal;
+    /*texto*/
+    text-align: center;
+}
+
+
+.secundariaItem img {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.secundariaItem a{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.transmisionVivo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Inicio Estilos footer*/
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    width: 100%;
+    color: white;
+
+}
+footer ul{
+    list-style: none;
+    margin: 30px;
+    font-size: 22px;
+}
+/*Inicio Estilos ajuste responsive*/
+@media (max-width:2116px){
+    .contenidoPrincipal{
+        height: 450px;
+    }
+    .contenidoPrincipal h2{
+
+        font-size: 25px;
+
+    }
+    .novedad{
+        font-size: 13px;
+    }
+    .novedad .novedaditem img{
+        width: 180px;
+        height: 150px;
+
+    }
+    .sectionSecundaria{
+        height: 330px ;
+    }
+    .secundariaItem img {
+        width: 200px;
+        height: 200px;
+
+    }
+}
+    @media (max-width:1214px){
+        .contenidoPrincipal{
+            height: 480px;
+        }
+        .secundariaItem img {
+            width: 180px;
+            height: 180px;
+
+        }
+
+}
+@media (max-width:902px){
+    .contenidoPrincipal{
+        height: 530px;
+    }
+    .contenidoPrincipal h2{
+
+        font-size: 25px;
+
+    }
+    .novedad{
+        font-size: 13px;
+    }
+    .novedad .novedaditem img{
+        width: 180px;
+        height: 150px;
+
+    }
+    .sectionSecundaria{
+        height: 480px ;
+    }
+    .secundariaItem img {
+        width: 180px;
+        height: 180px;
+
+    }
+    .cardImagen{
+        height: 240px;
+        margin: 10px;
+        gap: 15px;
+    }
+    .cardImagen img{
+        width: 430px;
+        height: 230px;
+
+    }
+
+}
+@media (max-width:625px){
+
+    .followUsW h3{
+        font-size:12px ;
+    }
+    .mobile{
+        display: flex;
+        height: 30px;
+        width: auto;
+         margin-right: 250px;
+    }
+    .navebar{
+        display: none;
+    }
+    .sectionPrincipal{
+        margin-top: 10px;
+    }
+    .contenidoPrincipal{
+        height: 720px;
+    }
+    .contenidoPrincipal h2{
+
+        font-size: 25px;
+
+    }
+    .novedad{
+        font-size: 12px;
+        text-align: justify;
+
+    }
+    .novedad .novedaditem img{
+        width: 180px;
+        height: 150px;
+        flex-direction: column wrap;
+
+    }
+    .novedaditem h4{
+        font-size: 14px;
+    }
+    .sectionSecundaria{
+        height: 500px ;
+    }
+    .secundariaItem img {
+        width: 180px;
+        height: 180px;
+
+    }
+    .cardImagen{
+        height: 150px;
+        margin: 5px;
+        gap: 10px;
+    }
+    .cardImagen h3{
+        font-size: 15px;
+    }
+    .cardImagen img{
+        width: 210px;
+        height: 110px;
+
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+        width: auto;
+        align-items: center;
+    }
+    footer ul{
+
+        font-size: 18px;
+
+    }
+}
+@media (max-width:559px){
+    .mobile{
+        display: flex;
+        height: 30px;
+        width: auto;
+         margin-right: 120px;
+    }
+    .navebar li a{
+        font-size: 13px;
+    }
+    .contenidoPrincipal{
+        height: 730px;
+    }
+    .contenidoPrincipal h2{
+
+        font-size: 25px;
+
+    }
+    .novedad{
+        font-size: 12px;
+        text-align: justify;
+
+    }
+    .novedad .novedaditem img{
+        width: 180px;
+        height: 150px;
+        flex-direction: column wrap;
+
+    }
+    .sectionSecundaria{
+        height: 500px ;
+    }
+    .secundariaItem img {
+        width: 180px;
+        height: 180px;
+
+    }
+
+}
+@media (max-width:426px){
+    .mobile{
+        display: flex;
+        height: 30px;
+        width: auto;
+        margin-right: 55px;
+    }
+    .navebar li a{
+        font-size: 13px;
+    }
+    .contenidoPrincipal{
+        height: 740px;
+    }
+    .contenidoPrincipal h2{
+
+        font-size: 20px;
+
+    }
+    .novedad{
+        font-size: 10px;
+        text-align: justify;
+
+    }
+    .novedad .novedaditem img{
+        width: 150px;
+        height: 170px;
+        flex-direction: column wrap;
+
+    }
+
+    .sectionSecundaria{
+        height: 500px ;
+    }
+    .secundariaItem img {
+        width: 120px;
+        height: 120px;
+
+    }
+
+}
+@media (max-width:357px){
+    .mobile{
+        display: flex;
+        height: 30px;
+        width: auto;
+         margin-right: 15px;
+    }
+
+    .contenidoPrincipal{
+        height: 600px;
+    }
+    .contenidoPrincipal h2{
+
+        font-size: 20px;
+
+    }
+    .novedad{
+        font-size: 18px;
+        text-align: justify;
+        width: 100%;
+        margin: 0px;
+        padding: 2px;
+        gap: -5px;
+        font-size: 14px;
+    }
+    .novedaditem{
+        width: 130px;
+        height: 185px;
+        flex-direction: row wrap;
+        gap: 1px;
+
+
+    }
+
+  .novedad .novedaditem img {
+        width: 120px;
+        height: 110px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    .novedaditem p{
+        text-align: center;
+        font-size: 12px;
+    }
+   .novedaditem h4{
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 12px;
+    }
+    .sectionSecundaria{
+        height: 500px ;
+        gap:10px;
+    }
+    .secundariaItem img {
+        width: 120px;
+        height: 120px;
+
+    }
+
+}

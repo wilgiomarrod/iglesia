@@ -1,0 +1,27 @@
+//importar variables del archivo _variables.scss
+@import 'variables';
+
+.followUsW{
+    background: $colorFondo;
+    h3{
+        font-size: 20px;
+        color: $colorLetraHeader;
+    }
+}
+a.hover{
+    color: $colorFondo;
+}
+footer{
+    background: $colorFondo;
+}
+.foteritem{
+    font-size: $letraFooterSize;
+    ul{
+        li{
+            font-size:$letraFooterSize - $letraitemsFontSize;
+            a{
+                color:$colorLetraFooter; 
+            }
+        }
+    }
+}

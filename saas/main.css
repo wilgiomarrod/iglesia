@@ -1,0 +1,25 @@
+.followUsW {
+  background: radial-gradient(rgb(0, 0, 0), rgb(2, 2, 2));
+}
+.followUsW h3 {
+  font-size: 20px;
+  color: white;
+}
+
+a.hover {
+  color: radial-gradient(rgb(0, 0, 0), rgb(2, 2, 2));
+}
+
+footer {
+  background: radial-gradient(rgb(0, 0, 0), rgb(2, 2, 2));
+}
+
+.foteritem {
+  font-size: 16px;
+}
+.foteritem ul li {
+  font-size: 15px;
+}
+.foteritem ul li a {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
