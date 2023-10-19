@@ -26,15 +26,15 @@
 
         </section>
         <ul class="navebar animate_animated animate__fadeInDown">
-            <section class="logo">
-                <img src="../assets/img/AD.png" alt="Jaziel">
-            </section>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="./nosotros.html">NOSOTROS</a></li>
-            <li><a href="./peticiones.html">PETICIONES</a></li>
-            <li><a href="./donaciones.html">DONACIONES</a></li>
-            <li><a href="./contactanos.html">CONTACTANOS</a></li>
-        </ul>
+          <section class="logo">
+              <a href="../index.html"><img src="../assets/img/AD.png" alt="Jaziel"></a>
+          </section>
+          <section class="focusTitulo"><li><a href="./soyNuevo.html">SOY NUEVO</a></li></section> 
+          <li><a href="./nosotros.html">NOSOTROS</a></li>
+          <li><a href="./peticiones.html">PETICIONES</a></li>
+          <li><a href="./donaciones.html">DONACIONES</a></li>
+          <li><a href="./contactanos.html">CONTACTANOS</a></li>
+      </ul>
     </nav>
     </header>
     <main>
@@ -42,58 +42,105 @@
         <section class="contenidoPrincipal">
           <H1>SOY NUEVO</H1>
           <p>Queremos darte la bienvenida y contarte un poco de nosotros</p>
-
-
           <h2>¿En que creemos?</h2>
           <p>Seguimos todas las doctrinas acorde con lo que se establecio por el concilio de las Asambleas de Dios, si quieres conocer mas puedes dirigirte a "Nosotros".</p>
-
-
-
-
-
-
-
-
-
         </section>
-        <section class="sectionPrincipalAux"> <!-- seccion principal-->
-                    <!-- el logo la barra de navegacion y algun loguin, solo es una etiqueta contenedora -->
 
-
-        </section>
-        <section class="contenidoPrincipalAux">
-          <h2>Transmision en vivo</h2>
-          <div class="transmisionVivo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/X0g1Sf0BHI8?si=7nH63V108jSivW0R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-          </div>
-        </section>
         <section class="sectionSecundariaAux">
+          <br>
           <h2 >Ministerios</h2>
-          <div class="cardImagen">
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Ministerio de Danzas
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+
+                    <p>Este ministerio tiene el objetivo de expresar a traves del lenguaje corporal adoración y exaltación a Dios</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Ministerio Juvenil
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Este ministerio tiene el objetivo de alcanzar a los adolescentes y jovenes y enseñarles la palabra de Dios</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Ministerio de Alabanza
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Este ministerio tiene el objetivo de ministrar el corazon de Dios con excelencia</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Ministerio de Ujieres
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Este ministerio tiene el objetivo de servir en todo lo relacionado a la logistica y ser la primera sonrisa al recibir al nuevo</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Ministerio Infantil
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Este ministerio tiene el objetivo de alcanzar a los niños y enseñarles la palabra de Dios</p>
+                </div>
+              </div>
+            </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Ministerio Audiovisual
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">       
+                  <p>Este ministerio tiene el objetivo de servir por medio de las herramientas tecnologicas en cada culto y actividad de la iglesia</p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+          <!-- <div class="cardImagen">
             <h3>Ministerio Parejas</h3>
-          </div>
-          <div class="cardImagen">
-            <h3>Ministerio Infantil</h3>
-          </div>
-          <div class="cardImagen">
-            <h3>Ministerio Juvenil</h3>
-          </div>
-          <div class="cardImagen">
-            <h3>Ministerio de Alabanza</h3>
-          </div>
-          <div class="cardImagen">
-            <h3>Ministerio de Ujieres</h3>
-          </div>
-          <div class="cardImagen">
-            <h3>Ministerio de Audiovisuales</h3>
-          </div>
-          <div class="cardImagen">
+          </div> -->
+
+
+          <!-- <div class="cardImagen">
             <h3>Ministerio Hombres</h3>
           </div>
           <div class="cardImagen">
             <h3>Ministerio Mujeres</h3>
-          </div>
+          </div> -->
 
 
           <h2>Discipulados</h2>
@@ -108,12 +155,12 @@
           
         <ul>
           <p>Mapa del sitio</p>
-          <li><a href="./index.html" >Inicio</a></li>
-          <li><a href="./pages/soyNuevo.html">Soy Nuevo</a></li>
-          <li><a href="./pages/nosotros.html">Nosotros</a></li>
-          <li><a href="./pages/peticiones.html">Peticiones</a></li>
-          <li><a href="./pages/donaciones.html">Donaciones</a></li>
-          <li><a href="./pages/contactanos.html">Contactanos</a></li>
+          <li><a href="../index.html" >Inicio</a></li>
+          <li><a href="./soyNuevo.html">Soy Nuevo</a></li>
+          <li><a href="./nosotros.html">Nosotros</a></li>
+          <li><a href="./peticiones.html">Peticiones</a></li>
+          <li><a href="./donaciones.html">Donaciones</a></li>
+          <li><a href="./contactanos.html">Contactanos</a></li>
       </ul>
       </div>
       <div class="foteritem">
